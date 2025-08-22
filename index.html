@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TIPEZANE - Expand Your Reach</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      color: #fff;
+      background: url('horizon.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 20px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .services {
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+
+    .service {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      width: 180px;
+      transition: transform 0.3s ease;
+    }
+
+    .service:hover {
+      transform: scale(1.05);
+    }
+
+    .service img {
+      width: 64px;
+      height: 64px;
+      margin-bottom: 10px;
+    }
+
+    .service p {
+      font-size: 1.1em;
+      font-weight: 600;
+      margin: 0;
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2em;
+      }
+
+      .services {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Expand Your Reach</h1>
+    <div class="services">
+      <div class="service">
+        <img src="icons/skills.png" alt="Skills Icon" />
+        <p>Freelance Skills</p>
+      </div>
+      <div class="service">
+        <img src="icons/transport.png" alt="Transport Icon" />
+        <p>Transport Services</p>
+      </div>
+      <div class="service">
+        <img src="icons/real-estate.png" alt="Real Estate Icon" />
+        <p>Property Listings</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
