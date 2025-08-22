@@ -14,6 +14,24 @@
       background-size: cover;
     }
 
+    header {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #00ffff;
+    }
+
     .overlay {
       background-color: rgba(0, 0, 0, 0.6);
       padding: 60px 20px;
@@ -60,6 +78,19 @@
       margin: 0;
     }
 
+    footer {
+      background-color: rgba(0, 0, 0, 0.8);
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9em;
+    }
+
+    footer a {
+      color: #00ffff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
     @media (max-width: 600px) {
       h1 {
         font-size: 2em;
@@ -73,6 +104,17 @@
   </style>
 </head>
 <body>
+
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="skills.html">Skills</a>
+      <a href="transport.html">Transport</a>
+      <a href="real-estate.html">Real Estate</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
   <div class="overlay">
     <h1>Expand Your Reach</h1>
     <div class="services">
@@ -90,5 +132,16 @@
       </div>
     </div>
   </div>
+
+  <footer>
+    <p>© 2025 TIPEZANE. All rights reserved.</p>
+    <p>
+      <a href="mailto:info@tipezane.com">info@tipezane.com</a> |
+      <a href="#">Facebook</a> |
+      <a href="#">Twitter</a> |
+      <a href="#">Instagram</a>
+    </p>
+  </footer>
+
 </body>
 </html>
